@@ -31,7 +31,7 @@ const TaskItem = ({ task, onEdit }) => {
       </CardActions>
       <CardContent>
         <Typography variant="body1" style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
-         {task.id} {task.title}
+         {task.title}
         </Typography>
         <Typography variant="body2" color="textSecondary" style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
           {task.description}
